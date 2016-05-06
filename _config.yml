@@ -4,17 +4,18 @@ markdown: redcarpet
 
 # 作者信息
 author: 
-  name: Anya Lin
-  email: lay.1010@hotmail.com
+  name: Hao Guo
+  email: napoleon1889@163.com
   weibo: http://weibo.com/orangeissweet
-  github: http://github.com/Guo0625
+  github: http://github.com/napoleon1889
   music: http://site.douban.com/linanya
   linkedin: https://www.linkedin.com/pub/anya-lin/81/91/232
 
 # 站点信息
 title: 蝈蝈的博客
-description: My personal blog
-url: http://painterlin.com
+description: 面壁者的宝库
+#url: http://painterlin.com
+url: http://napoleon1889.github.io
 rss_url: /pages/atom.xml
 
 # gavatar头像及Favicon
@@ -23,12 +24,14 @@ favicon: /public/img/deer3.png
 
 # google analytics 设置
 ga:
-  id: UA-54262064-1 
-  url: painterlin.com
+  #id: UA-54262064-1 
+  id: UA-77335153-1
+  #url: painterlin.com
+  url: napoleon1889.github.io
 
 # disqus 设置
-disqus:
-  shortname: painterlin
+#disqus:
+  #shortname: painterlin
 
 # 主题设置，自动激活某个标签
 active: 读书
