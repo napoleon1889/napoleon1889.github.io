@@ -8,4 +8,5 @@ categories: paracraft
 ```
 cd ok
 ```
+
 ## Empty diary template 我不想
