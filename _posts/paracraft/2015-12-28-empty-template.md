@@ -6,4 +6,4 @@ categories: paracraft
 
 ## Empty diary template
 
-Empty post template
+#我不想
