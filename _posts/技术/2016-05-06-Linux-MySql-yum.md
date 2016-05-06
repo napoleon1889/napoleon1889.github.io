@@ -8,20 +8,25 @@ description:
 ---
 
 [toc]
+
 #1安装MySql
 ##1.1下载MySql的yum仓库文件
 选择适合你linux系统版本的仓库文件
 [下载地址](http://dev.mysql.com/downloads/repo/yum/)
 ##1.2本地安装yum仓库
 会下载一些依赖
+
 ```shell
 #使用root权限，切换到yum仓库文件所在位置
 yum localinstall mysql-community-release-el6-8.noarch.rpm
 ```
+
 ##1.3安装MySql服务
+
 ```shell
 yum install mysql-community-server
 ```
+
 #2初始化MySql
 ##2.1启动mysql服务
 ```shell
