@@ -6,10 +6,10 @@ markdown: redcarpet
 author: 
   name: Hao Guo
   email: napoleon1889@163.com
-  weibo: http://weibo.com/orangeissweet
+  weibo: http://weibo.com/u/2701716492/home?topnav=1&wvr=6
   github: http://github.com/napoleon1889
-  music: http://site.douban.com/linanya
-  linkedin: https://www.linkedin.com/pub/anya-lin/81/91/232
+  #music: http://site.douban.com/linanya
+  #linkedin: https://www.linkedin.com/pub/anya-lin/81/91/232
 
 # 站点信息
 title: 蝈蝈的博客
@@ -46,4 +46,4 @@ locals:
   tags: 标签
   about: 关于
   newest: 最新文章
-  archive: 归档
+  archive: 点滴
