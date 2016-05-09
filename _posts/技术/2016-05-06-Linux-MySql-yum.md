@@ -7,7 +7,7 @@ keywords:
 description: 
 ---
 
-[toc]
+
 
 #1安装MySql
 ##1.1下载MySql的yum仓库文件
@@ -29,6 +29,7 @@ yum install mysql-community-server
 
 #2初始化MySql
 ##2.1启动mysql服务
+
 ```shell
 service mysqld start
 #会出现以下结果
@@ -37,7 +38,9 @@ Installing validate password plugin:                       [  OK  ]
 Starting mysqld:                                           [  OK  ]
 ```
 ##2.2修改密码
+
 此时登录mysql是无法登录的需要修改密码
+
 ```shell
 #停止mysql服务
 service mysqld stop
@@ -52,6 +55,7 @@ mysql>update user set authentication_string=password('123456') where user='root'
 mysql>flush privileges;
 mysql>exit;
 ```
+
 然后ctrl+c终止安全模式，正常启动mysql并使用修改的密码登录
 
 #参考来源
